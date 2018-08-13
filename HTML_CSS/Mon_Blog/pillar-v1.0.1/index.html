@@ -33,7 +33,7 @@
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Fernand SOUALO</h1>
-						    <div class="title mb-3">INGENIEUR SYSTEMES ELECTRONIQUES SYSTEMES INFORMATIQUES</div>
+						    <div class="title mb-3">INGENIEUR SYSTEMES ELECTRONIQUES, SYSTEMES INFORMATIQUES</div>
 						    <ul class="list-unstyled">
 							    <li class="mb-2"><a href="mailto:fernandsoualo@gmail.com"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>fernandsoualo@gmail.com</a></li>
 							    <li><a href="tel:+33644808530"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>0644808530</a></li>
@@ -64,18 +64,38 @@
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Experiences Professionnelle et Académique</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
+										<article class="resume-timeline-item position-relative pb-5">
+									    
+												<div class="resume-timeline-item-header mb-2">
+													<div class="d-flex flex-column flex-md-row">
+														<h3 class="resume-position-title font-weight-bold mb-1">Supervision | Pilotage Réseau Mobile SFR <small class="text-muted">(Intérim)</small></h3>
+														<div class="resume-company-name ml-auto">Iris Télécommunications, Nokia</div>
+													</div><!--//row-->
+													<div class="resume-position-time">Juin - Septembre 2018</div>
+												</div><!--//resume-timeline-item-header-->
+												<div class="resume-timeline-item-desc">
+													<p>Supervision RAN du flux entrant d'alarmes à travers les différents équipements radios nécessaires. Ma mission consistait ainsi à Détecter des alarmes critiques dites externes (température, climatisation, parafoudre, énergie), les Diagnostiquer afin d'en décrire la cause puis Déclencher pour un suivi sur site par un technicien. Aussi effectuer des téléinterventions sur des cellules, modules ou baies ne nécessitant pas de déclenchement.</p>
+													<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies utilisées:</h4>
+													<ul class="list-inline">
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">Equipements radios Nokia, Huawei</span></li>
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">Technologies radios SFR 2G/3G/4G</span></li>
+														<li class="list-inline-item"><span class="badge badge-primary badge-pill">Outils de supervision</span></li>
+													</ul>
+												</div><!--//resume-timeline-item-desc-->
+		
+											</article><!--//resume-timeline-item-->
 								    <article class="resume-timeline-item position-relative pb-5">
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Projet FPGA</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Centrale DCC sur FPGA <small class="text-muted">(Projet)</small></h3>
 										        <div class="resume-company-name ml-auto">Université Pierre et Marie Curie</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">Avril - Juin 2018</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
 										    <p>Description en VHDL du protocole DCC pour la commande numérique des trains. Le but étant de commander via le protocole DCC des trains par implémentation VHDL sur cible FPGA. Ce qui va de l'écriture du code à la validation du système sur une plateforme train en passant par la simulation comportementale. Puis créer une IP MICROBLAZE et tester également son bon fonctionnement.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Réussites:</h4>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations:</h4>
 										    <p>Au bout du projet, les objectifs suivants ont été atteints:</p>
 										    <ul>
 											    <li>La description de la centrale DCC en VHDL (code, simulations), le test de son bon fonctionnement puis validation</li>
@@ -100,15 +120,24 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Mini-Projet Communication sans fil Raspberry Pi/Arduino</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Réseau de capteurs minimaliste <small class="text-muted">(Mini-Projet)</small></h3>
 										        <div class="resume-company-name ml-auto">Université Pierre et Marie Curie</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">Avril - Mai 2018</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
-										    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+										    <p>Il s’agit dans ce projet de lire périodiquement la valeur d’un capteur de lumière connecté à l’arduino et l’envoyer via le module NRF24L01 (l’émetteur) à la raspberry qui se chargera de recueillir ces données pour les stocker dans une base de données, via un autre module NRF24L01 (le récepteur).
+													Sur la Raspberry Pi est installé un serveur web permettant de visualiser en temps réel, sous forme de graphe, les données reçues en pourcentage.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations</h4>
+										        <ul>
+													<p>Sur la Raspberry : </p>
+													<li>Implémenter un serveur HTTP minimaliste en Python avec une interface utilisatrice affichée en HTML</li>
+													<li>Création d'un processus qui recueille des les données du capteur via le réseau sans fils</li>
+													<li>Création d'une base de données pour enregistrer les valeurs datés utilisant sqlite3 en C++</li>
+													<p>Sur l'Arduino : </p>
+													<li>Des tâches qui lisent périodiquement le capteur de lumière et qui l'envoie à la base</li>
+													<li>Afficher la valeur lue sur écran oled</li>
+												</ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies utilisées:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">module nRF24L01+</span></li>
@@ -127,16 +156,23 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Projet détection de contours par application de masque de convolution</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Traitement d'images sur DSP <small class="text-muted">(Projet)</small></h3>
 										        <div class="resume-company-name ml-auto">Université Pierre et Marie Curie</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">Avril - Mai 2018</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
-										    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies utilisées:</h4>
+										    <p>Détection de contours par application de masque de convolution :<br />
+													Développer sur la carte DSP TMS320C6713 DSK un programme qui prend une image stockée dans un fichier au format PGM (Portable Gray Map) , calculer le produit de convolution avec un masque permettant la détection de contours et générer un fichier image résultat.
+											</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations</h4>
+											<ul>
+													<li>Développer une fonction en C qui servira à filter une image au format PGM</li>
+													<li>Optimiser l'algorithme en intégrant du code assembleur ainsi comparer le temps de
+															traitement de la fonction écrite en langage C et en assembleur puis en déterminer le
+															gain obtenu</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies utilisées:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">DSP</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Assembleur</span></li>
@@ -151,15 +187,23 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Stage PFE Conception, dévéloppement, assemblage des UAVs</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Conception, dévéloppement, assemblage et test des UAVs <small class="text-muted">(stage PFE)</small></h3>
 										        <div class="resume-company-name ml-auto">ATLAN Space</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">Mars - Juin 2017</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-										    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <p>Mise en place d'un drone capable d'assurer la surveillance des côtes maritimes via une intelligence artificielle emarquée.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations</h4>
+											<ul>
+													<li>Etudes mécanique, aérodynamique, télécoms et énergétique</li>
+													<li>Réalisation de circuits électroniques</li>
+													<li>Réalisation de pièces mécaniques</li>
+													<li>Programmation embarquée</li>
+													<li>Réalisation d'un modèle de drone de type voilure fixe</li>
+													<li>Assemblage et test</li>
+											</ul>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies utilisées:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">C++</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
@@ -174,19 +218,24 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">PFA <small class="text-muted">(Intern)</small></h3>
-										        <div class="resume-company-name ml-auto">ENSA</div>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Etude d'un Panneau Solaire <small class="text-muted">(Projet)</small></h3>
+										        <div class="resume-company-name ml-auto">Ecole Nationale des Sciences Appliquées</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">Avril - Juin 2016</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+											<p>Etude d'un panneau solaire associé à un convertisseur statique DC/DC à commande MPPT</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations</h4>
+											<ul>
+													<li>Etude des caractéristiques de la cellule photovoltaïque (PV) à travers des tests expérimentaux en laboratoire</li>
+													<li>Etude des différents algorithmes d'optimisation du fonctionnement de la cellule PV</li>
+													<li>Implémentation sur Simulink de l'algorithme P&amp;O</li>
+											</ul>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies utilisées:</h4>
 										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Ruby on Rails</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">jQuery</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML/LESS</span></li>
-											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MongoDB</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">MATLAB/Simulink</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Kit d'expérimentation</span></li>
+											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Excel</span></li>
 										    </ul>
 									    </div><!--//resume-timeline-item-desc-->
 
@@ -205,142 +254,175 @@
 				    </div>
 				    <div class="col-lg-3">
 					    <section class="resume-section skills-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Compétences &amp; Outils</h2>
 						    <div class="resume-section-content">
 						        <div class="resume-skill-item">
-							        <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+							        <h4 class="resume-skills-cat font-weight-bold">Programmation</h4>
 							        <ul class="list-unstyled mb-4">
 								        <li class="mb-2">
-								            <div class="resume-skill-name">Angular</div>
+								            <div class="resume-skill-name">C++</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">React</div>
+								            <div class="resume-skill-name">C</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">JavaScript</div>
+								            <div class="resume-skill-name">Java</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        
 								        <li class="mb-2">
-								            <div class="resume-skill-name">Node.js</div>
+								            <div class="resume-skill-name">VHDL</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 73%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">HTML/CSS/SASS/LESS</div>
+								            <div class="resume-skill-name">Assembleur</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+								            <div class="resume-skill-name">HTML/CSS/PHP</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 							        </ul>
 						        </div><!--//resume-skill-item-->
-						        
-						        <div class="resume-skill-item">
-						            <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+								
+								<div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Electronique</h4>
 							        <ul class="list-unstyled">
 								        <li class="mb-2">
-								            <div class="resume-skill-name">Python/Django</div>
+								            <div class="resume-skill-name">Carte FPGA</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">Ruby/Rails</div>
+								            <div class="resume-skill-name">Carte DSP</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name">PHP</div>
+								            <div class="resume-skill-name">Arduino/Raspbery Pi</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div><!--//resume-skill-item-->
+
+						        <div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Réseaux et Protocoles</h4>
+							        <ul class="list-unstyled">
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Architecture TCP/IP</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Routage CISCO</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">DNS/SSH</div>
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
+							        </ul>
+								</div><!--//resume-skill-item-->
+								
+
+								<div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Systèmes et Bases de Données</h4>
+							        <ul class="list-unstyled">
 								        <li class="mb-2">
-								            <div class="resume-skill-name">WordPress/Shopify</div>
+								            <div class="resume-skill-name">Linux</div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Windows</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">SQL</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 							        </ul>
 						        </div><!--//resume-skill-item-->
+
 						        
 						        <div class="resume-skill-item">
-						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+						            <h4 class="resume-skills-cat font-weight-bold">Autres</h4>
 						            <ul class="list-inline">
-							            <li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">MATLAB/Simulink</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">LabVIEW</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Wireframing</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Balsamiq</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">WordPress</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">2G/3G/4G</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Qt</span></li>
 						            </ul>
 						        </div><!--//resume-skill-item-->
 						    </div><!--resume-section-content-->
 					    </section><!--//skills-section-->
 					    <section class="resume-section education-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Formation</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
 								    <li class="mb-2">
-								        <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-								        <div class="resume-degree-org">University College London</div>
-								        <div class="resume-degree-time">2010 - 2011</div>
+								        <div class="resume-degree font-weight-bold">Master 2 Systèmes Electroniques, Systèmes Informatiques</div>
+								        <div class="resume-degree-org">Université Pierre et Marie Curie</div>
+								        <div class="resume-degree-time">2018 - 2019</div>
+									</li>
+									<li class="mb-2">
+								        <div class="resume-degree font-weight-bold">Master 1 Systèmes Electroniques, Systèmes Informatiques</div>
+								        <div class="resume-degree-org">Université Pierre et Marie Curie</div>
+								        <div class="resume-degree-time">2017 - 2018</div>
 								    </li>
 								    <li>
-								        <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-								        <div class="resume-degree-org">Imperial College London</div>
-								        <div class="resume-degree-time">2007 - 2010</div>
+								        <div class="resume-degree font-weight-bold">Diplôme d'ingénieur Systèmes Electroniques, Informatique et Réseaux</div>
+								        <div class="resume-degree-org">Ecole Nationale des Sciences Appliquées d'Oujda - Maroc</div>
+								        <div class="resume-degree-time">2012 - 2017</div>
 								    </li>
 							    </ul>
 						    </div>
-					    </section><!--//education-section-->
-					    <section class="resume-section reference-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
-						    <div class="resume-section-content">
-							    <ul class="list-unstyled resume-awards-list">
-								    <li class="mb-2 pl-4 position-relative">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Lorem</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
-								    </li>
-								    <li class="mb-0 pl-4 position-relative">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Ipsum</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
-								    </li>
-							    </ul>
-						    </div>
-					    </section><!--//interests-section-->
+						</section><!--//education-section-->
+						
 					    <section class="resume-section language-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Langues</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled resume-lang-list">
-								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Native)</small></li>
-								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">French</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
-								    <li><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Professional)</small></li>
+								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Anglais</span> <small class="text-muted font-weight-normal">(Professionnel)</small></li>
 							    </ul>
 						    </div>
 					    </section><!--//language-section-->
 					    <section class="resume-section interests-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Intérêts</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
-								    <li class="mb-1">Climbing</li>
-								    <li class="mb-1">Snowboarding</li>
-								    <li class="mb-1">Cooking</li>
+								    <li class="mb-1">Lectures</li>
+								    <li class="mb-1">MOOCs</li>
+								    <li class="mb-1">Football</li>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
@@ -356,7 +438,7 @@
     
     <footer class="footer text-center pt-2 pb-5">
 	     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                <small class="copyright">Edited with <i class="fas fa-heart"></i> by Fernand SOUALO</small>
     </footer>
 
     
