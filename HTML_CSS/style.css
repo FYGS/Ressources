@@ -1,0 +1,20 @@
+h1
+{
+	color: green;
+	font-size: 1em;
+}
+h2
+{
+	color: red;
+	font-family: "Trebuchet MS", Georgia, Verdana;
+	text-align: center;
+	text-decoration: underline;
+}
+a
+{
+	color: yellow;
+}
+ul
+{
+	text-align: justify;
+}
